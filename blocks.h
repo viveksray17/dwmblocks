@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-    {"📶: ", "iwgetid -r",					0,		0},
+    {"📶(SSID): ", "iwgetid -r",					0,		0},
     {"VOL: ", "/data/vivek/extra/scripts/get-sound.sh",					0,		10},
     {"🐧: ", "uname -r",					0,		0},
 	{"📦: ", "pacman -Q | wc -l",					600,		0},
