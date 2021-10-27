@@ -4,7 +4,7 @@ static const Block blocks[] = {
     {"📶(SSID): ", "iwgetid -r",					0,		0},
     {"VOL: ", "/data/vivek/extra/scripts/get-sound.sh",					0,		10},
     {"🐧: ", "uname -r",					0,		0},
-	{"📦: ", "pacman -Q | wc -l",					600,		0},
+	{"📦: ", "pacman -Q | wc -l",					0,		0},
 	{"📅: ", "date '+%d-%m %H:%M'",					60,		0},
 };
 
